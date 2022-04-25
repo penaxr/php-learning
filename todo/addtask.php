@@ -1,6 +1,7 @@
 <?php
-
+            header("Location: index.php");
             require_once ('includes/dbconf.php');
+
             if(isset($_POST['submit']))
 
             if (!$conn) {
@@ -11,11 +12,13 @@
             $sql = "INSERT INTO todo (task, date)
             VALUES ('$task', '$date')";
             if (mysqli_query($conn, $sql)) {
-                echo "task added";
+                echo "<h2>task added</h2>";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
 
             mysqli_close($conn);
 
-            ?>
+?>
+
+
