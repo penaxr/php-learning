@@ -2,7 +2,7 @@
 
 <head>
 
-    <title> YTDir - Youtube Directory </title>
+    <title> My PHP journey </title>
 
     <!-- mon css -->
 
@@ -21,7 +21,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <i class="fa-solid fa-dragon"></i>
-                YTDir
+                My PHP Journey
             </a>
         </div>
     </nav>
@@ -48,7 +48,7 @@
     <div class="container col-md-5 bg-light bg-gradient mt-3 shadow-lg p-3  bg-light rounded">
         <div class="col-auto col-md-offset-1 ">
             <div class="alert alert-info" role="alert">
-                <strong> <i class="fa-solid fa-dragon"></i> YTDir - Youtube video directory</strong>
+                <strong> <i class="fa-solid fa-dragon"></i> simple youtube url manager </strong>
             </div>
             <div class="panel panel-default panel-table">
                 <div class="panel-heading ">
@@ -102,7 +102,7 @@
                             <thead>
                             <tr>
                             <th>VIDEO TITLE</th>
-                            <th>WATCH URL</th>
+                            <th>URL PARAMETERS</th>
                             <th>ACTIONS</th>
                             </tr>
                             </thead>";
