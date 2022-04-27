@@ -8,7 +8,7 @@ a {
 }
 
 h1 {
-   color: ghostwhite;
+   color: #212529;
 }
 .panel-table .panel-body {
     padding: 0;
@@ -20,7 +20,6 @@ h1 {
 }
 
 .panel-table .panel-body .table-bordered>thead>tr>th:first-of-type {
-    text-align: center;
     width: 100px;
 }
 
