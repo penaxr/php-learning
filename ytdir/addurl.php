@@ -7,12 +7,11 @@
             if (!$conn) {
                 die("Error DB " . mysqli_connect_error());
             }
-            $task = $_POST['task'];
-            $date = $_POST['date'];
-            $sql = "INSERT INTO todo (task, date)
-            VALUES ('$task', '$date')";
+            $url = $_POST['url'];
+            $sql = "INSERT INTO ytdir (url)
+            VALUES ('$url')";
             if (mysqli_query($conn, $sql)) {
-                echo "<h2>task added</h2>";
+                echo "<h2>url added</h2>";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }

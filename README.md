@@ -7,8 +7,19 @@
   "MD041": false
 } -->
 
-<div align="center">
 
 # My PHP Projects while learning
 
-</div>
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [0.0.1] - 2022-04-26
+
+Decided that the todo app will become a table where I insert youtube links of music videos I enjoy.
+### Major changes
+
+- Todo became YTDir
+### Changed features
+
+

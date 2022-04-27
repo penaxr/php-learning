@@ -16,7 +16,7 @@
 <?php
 
 $learn = "Learning PHP";
-$tasks = array("Learn PHP", "Practice PHP", "Create TODO v2", "Practice even more");
+$tasks = array("Learn PHP", "Practice PHP", "Create YTDir - A youtube directory", "Practice even more");
 
 /*
 echo $learn;
@@ -30,7 +30,7 @@ echo "Things to do " . $tasks[0] . $tasks[1] . $tasks[2] . $tasks[3];
   <div class="container">
     <br>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="todo/index.php">TODO APP</a></li>
+      <li class="breadcrumb-item"><a href="ytdir/index.php">YTDir</a></li>
       <li class="breadcrumb-item"><a href="https://github.com/penaxr/php-learning">Github</a></li>
       <li class="breadcrumb-item active"></li>
     </ol>
