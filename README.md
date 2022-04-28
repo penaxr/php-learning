@@ -10,7 +10,7 @@
 
 # My PHP Projects while learning
 
-  ![image](https://github.com/penaxr/php-learning/blob/main/project-screenshot.jpg)
+  ![image](https://i.ibb.co/5rmGc76/project-screenshot.jpg)
 
 # Changelog
 
