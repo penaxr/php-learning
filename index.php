@@ -20,7 +20,7 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <i class="fa-solid fa-dragon"></i>
+                <i class="fa-solid fa-lightbulb"></i>
                 My PHP Journey
             </a>
         </div>
@@ -33,7 +33,7 @@
     <br>
     <br>
 
-    <div class="container col bg-light bg-gradient mt-3 shadow-lg p-3  bg-light rounded">
+    <div class="container col bg-gradient mt-3 shadow-lg p-3 custombg rounded">
         <div class="card">
             <div class="card-header">
                 <h3 class="text-center font-monospace"><i class="fa-solid fa-file-code"> About the project</i></h3>
@@ -138,29 +138,23 @@
                                         mysqli_query($conn, $ytdel);
                                     }
 
+
                                     mysqli_close($conn);
                                 }
 
+
                                 ?>
 
-                                <!--        <nav aria-label="Page navigation pt-4">
-                                <ul class="pagination justify-content-center|end">
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                            <span class="visually-hidden">Next</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav> -->
+                                <br>
+                                <nav aria-label="More Results">
+                                    <ul class="pagination pagination-md">
+                                        <li class="page-item active" aria-current="page">
+                                            <span class="page-link">1</span>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    </ul>
+                                </nav>
 
                         </div>
 

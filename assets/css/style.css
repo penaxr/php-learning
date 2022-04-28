@@ -65,3 +65,7 @@ used to vertically center elements, may need modification if you're not using de
 .body {
     background-color: darkgrey;
 }
+
+.custombg {
+    background-color: #0f4c5c;
+}
