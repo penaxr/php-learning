@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg custombg">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="#pablo">My PHP Journey</a>
+                <a class="navbar-brand" href="">My PHP Journey</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-primary" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
@@ -32,20 +32,20 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="/">
-                            <i class="now-ui-icons objects_globe"></i>
-                            <p>Home</p>
+                            <i class="fa-solid fa-address-card"></i>
+                            <p> About</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/budgetor.php">
-                            <i class="now-ui-icons users_circle-08"></i>
-                            <p>Budgetor</p>
+                            <i class="fa-solid fa-calculator"></i>
+                            <p> Budgetor</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="now-ui-icons ui-1_settings-gear-63"></i>
-                            <p>About</p>
+                        <a class="nav-link" href="/ytdir.php">
+                            <i class="fa-brands fa-youtube"></i>
+                            <p> ytdir</p>
                         </a>
                     </li>
                 </ul>
