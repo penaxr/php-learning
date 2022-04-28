@@ -10,6 +10,8 @@
 
 # My PHP Projects while learning
 
+  ![image](https://github.com/penaxr/php-learning/blob/main/project-screenshot.jpg)
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
