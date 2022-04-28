@@ -1,0 +1,57 @@
+.width30 {
+    width: 30%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.floatL {
+    float: left;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.floatR {
+    float: right;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+
+.boxStyle {
+    padding: 20px;
+    border-radius: 25px;
+    border-top: 6px solid #4e869c;
+    border-bottom: 6px solid #4e869c;
+}
+
+.red {
+    color: #dc3553;
+}
+
+.rlabel {
+    color:#4e869c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.hstyle {
+    color:#4e869c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

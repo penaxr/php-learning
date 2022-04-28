@@ -17,26 +17,49 @@
     <!-- fa -->
     <script src="https://kit.fontawesome.com/c81198f907.js" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <i class="fa-solid fa-lightbulb"></i>
-                My PHP Journey
-            </a>
+    <nav class="navbar navbar-expand-lg custombg">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#pablo">My PHP Journey</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#example-navbar-primary" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-primary">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">
+                            <i class="now-ui-icons objects_globe"></i>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/budgetor.php">
+                            <i class="now-ui-icons users_circle-08"></i>
+                            <p>Budgetor</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="now-ui-icons ui-1_settings-gear-63"></i>
+                            <p>About</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
 </head>
-<a href=""></a>
 
 <body class="bg-dark">
     <br>
-    <br>
-
     <div class="container col bg-gradient mt-3 shadow-lg p-3 custombg rounded">
         <div class="card">
             <div class="card-header">
-                <h3 class="text-center font-monospace"><i class="fa-solid fa-file-code"> About the project</i></h3>
+                <h3 class="text-center font-monospace"><i class="fa-solid fa-file-code mt-2"> About the project</i></h3>
             </div>
             <div class="card-body">
                 <h5 class="card-title">A journey into PHP</h5>
@@ -56,8 +79,8 @@
 
         <div class="container col bg-light bg-gradient mt-3 shadow-lg p-3  bg-light rounded">
             <div class="col-auto col-md-offset-1 ">
-                <div class="alert alert-dark" role="alert">
-                    <strong> <i class="fa-solid fa-dragon"></i> simple youtube url manager </strong>
+                <div class="alert custombg" role="alert">
+                    <strong> <i class="fa-solid fa-dragon text-light"> simple youtube url manager</i></strong>
                 </div>
                 <div class="panel panel-default panel-table">
                     <div class="panel-heading ">
